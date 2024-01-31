@@ -1,1 +1,43 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --green_ligth:#B4C08E;
+  --text_green_ligth:#485A4B;
+  --font_whatsapp:#3A9713;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('assets/fonts/Gotham-Light.otf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('assets/fonts/Gotham-Medium.otf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('assets/fonts/Gotham-Bold.otf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+*{
+  font-family: 'Gotham';
+  padding: 0;
+  margin: 0;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+}
+
