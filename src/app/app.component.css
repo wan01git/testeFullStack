@@ -23,6 +23,9 @@ header strong{
 .main{
   background-image: url("/../assets/images/MDR_FITNESS CENTER_LD.jpg");
   min-height: 85%;
+  max-height: 100%;
+  max-width: 100%;
+  background-size: cover;
 
   display: flex;
   color: white;
@@ -56,20 +59,11 @@ height: 42rem
   margin-top: -26rem;
 }
 
-
-
-
-
-
-
-
-
 footer{
   background-color: var(--text_green_ligth);
   position: fixed;
   min-width: 100%;
   min-height: 8%;
-
   color: white;
   display: flex;
 

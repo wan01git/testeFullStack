@@ -6,7 +6,9 @@
 :root{
   --green_ligth:#B4C08E;
   --text_green_ligth:#485A4B;
-  --font_whatsapp:#3A9713
+  --text_green_medium:#314839;
+  --font_whatsapp:#3A9713;
+  --bottom-color:#AF5F48;
 }
 
 @font-face {
