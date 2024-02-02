@@ -64,7 +64,7 @@ footer{
   background-color: var(--text_green_ligth);
   position: fixed;
   min-width: 100%;
-  min-height: 8%;
+  min-height: 10%;
   color: white;
   display: flex;
 

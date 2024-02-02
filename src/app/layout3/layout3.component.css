@@ -214,3 +214,47 @@ display: flex;
   line-height: normal;
   margin-left: 0;
 }
+
+.map{
+  margin-top: 6em;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  min-height: 45%;
+}
+
+.infoMap{
+     display: flex;
+     align-items: center;
+     align-content: center;
+     justify-content: center;
+}
+
+.infoMap span{
+
+  line-height: 1.8;
+  font-size: large;
+}
+
+footer{
+
+  color: var(--text-green-x-ligth);
+ border: 1px solid;
+ border-color: var(--text-green-x-ligth);
+min-width: 100%;
+min-height: 15%;
+display: flex;
+justify-items: center;
+justify-content: center;
+
+}
+
+footer p{  flex-direction: row; margin-top: 2em;
+}
+
+footer img {
+  min-width: 1em;
+  max-height: 1em;
+  margin-top: 2em;
+  margin-left: 1em;
+}
