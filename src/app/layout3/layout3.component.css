@@ -83,3 +83,33 @@
   justify-items: center;
   align-items: center;
 }
+
+.ecologic{
+  background-color: white;
+  background-position: center bottom;
+  min-height: 50%;
+  color: var(--text_green_medium)
+}
+
+.ecologic h3{
+  font-size: xx-large;
+margin-top: 1em;
+margin-bottom: 1em;
+}
+
+.ecologic span{
+  line-height: 2;
+}
+
+.ecologic span{
+  font-size: large;
+  text-align: start;
+}
+
+.text{
+  margin-left: 2em;
+}
+
+.optionsEco{
+  max-width: 65%;
+}
