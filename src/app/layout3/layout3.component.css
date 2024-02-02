@@ -113,3 +113,58 @@ margin-bottom: 1em;
 .optionsEco{
   max-width: 65%;
 }
+
+.plantHome{
+
+  background-color:var(--rose);
+  background-position: center bottom;
+  display: flex;
+  flex-direction: column;
+  min-height: 50%;
+  justify-items: center;
+  align-items: center;
+  color: var(--bottom-color);
+  padding: 3em;
+}
+
+.plantHome h3{
+  font-size: 2.5em;
+margin-top: 1em;
+margin-bottom: 8px;
+}
+
+.apt{
+  margin-top: 3em;
+  display: flex;
+  flex-direction: row;
+}
+
+ .aptImg{
+  width: 91%;
+  height: 87%;
+}
+
+.plantHome span{
+  font-size: x-large;
+  margin-bottom: 1em;
+}
+
+
+.card{
+  background-color: rgba(221,205,194,0.75);
+  box-shadow: 1px 0px 1px 16px rgba(221,205,194,0.75);
+-webkit-box-shadow: 1px 0px 1px 16px rgba(221,205,194,0.75);
+-moz-box-shadow: 1px 0px 1px 16px rgba(221,205,194,0.75);
+}
+
+.btnPlant{
+  margin-top: 2.5em;
+  width: 38%;
+  justify-items: center;
+  justify-content: center;
+  display: flex;
+  background-color:var( --bottom-color);
+  color: white;
+  padding: 20px;
+
+}
