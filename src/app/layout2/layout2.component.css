@@ -1,0 +1,23 @@
+.layout2 {
+  background-image: url("../../assets/images/img-lp.jpg");
+  background-position: center bottom;
+
+  min-height: 45%;
+color: white;
+  display: flex;
+}
+
+.fundo_green{
+  background: rgba(180,192,142,0.75);
+  margin-top: 3rem;
+  margin-left: 67rem;
+  width: 62rem;
+  height: 14rem;
+  }
+
+  .layout2 p {
+    line-height: 2;
+   margin-top: 5.5rem;
+    margin-left:-52rem
+
+  }
