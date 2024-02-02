@@ -52,3 +52,34 @@
   padding: 20px;
 
 }
+
+.services{
+  margin-top: 2em;
+  background-color:var(--rose);
+  background-position: center bottom;
+  display: flex;
+  flex-direction: column;
+  min-height: 45%;
+  justify-items: center;
+  align-items: center;
+  color: var(--bottom-color);
+  padding: 3em;
+}
+
+.services h3{
+  font-size: xx-large;
+}
+
+.services span {
+  font-size: large;
+}
+
+.options{
+  text-align: center;
+  display: flex;
+  max-height: 4em;
+  max-width: 11em;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
