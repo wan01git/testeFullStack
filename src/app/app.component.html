@@ -21,10 +21,71 @@
       <p>uma experiência única de viver em equibíbrio com a</p>
       <p>natureza, sem comprimeter o conforto e o luxo</p>
     </div>
-    <!--   <div class="forms">
-      <form class="flex flex-col w-full" [formGroup]="form">
+    <div class="formulario">
+      <div class="textForm">
+        <h3>
+          Cadastre-se para falar<br />
+          com um especialista
+        </h3>
+      </div>
+
+      <form class="example-container" [formGroup]="form">
+        <mat-form-field>
+          <mat-label>Nome:</mat-label>
+          <input matInput [formControlName]="'name'" required />
+        </mat-form-field>
+        <div class="config">
+          <mat-form-field>
+            <mat-label>E-mail</mat-label>
+            <input matInput [formControlName]="'email'" required />
+          </mat-form-field>
+          <mat-form-field>
+            <mat-label>Telefone</mat-label>
+            <input matInput [formControlName]="'telefone'" />
+          </mat-form-field>
+        </div>
+        <div class="config">
+          <mat-form-field>
+            <mat-label>Estado</mat-label>
+            <mat-select [formControlName]="'estado'">
+              <mat-option [value]="'GO'"> Goiás </mat-option>
+            </mat-select>
+          </mat-form-field>
+          <mat-form-field>
+            <mat-label>Cidade</mat-label>
+            <input matInput [formControlName]="'cidade'" />
+          </mat-form-field>
+        </div>
+
+        <mat-form-field>
+          <mat-label>Mensagem</mat-label>
+          <input matInput [formControlName]="'mensagem'" />
+        </mat-form-field>
       </form>
-    </div> -->
+      <div
+        class="items-center grid gap-4 grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2"
+      >
+        <div class="divBnt">
+          <button class="bntClear" (click)="clear()">Limpar</button>
+        </div>
+        <div class="divBnt">
+          <button class="btn" (click)="save()">
+            Quero mais informações
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1.5em"
+              height="1.5em"
+              viewBox="0 0 256 256"
+            >
+              <path
+                fill="currentColor"
+                d="m221.66 133.66l-72 72a8 8 0 0 1-11.32-11.32L196.69 136H40a8 8 0 0 1 0-16h156.69l-58.35-58.34a8 8 0 0 1 11.32-11.32l72 72a8 8 0 0 1 0 11.32"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 

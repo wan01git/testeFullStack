@@ -39,6 +39,59 @@ width: 80rem;
 max-width: 70%;
 height: 42rem
 }
+.textForm{
+  display: flex;
+margin-bottom: 1em;
+font-size: x-large;
+  justify-content: center;
+}
+
+.formulario{
+  padding: 1.5em;
+  color: white;
+  max-width: 60%;
+
+  background-color:var(--text_green_ligth)
+}
+
+.config{
+  display: flex;
+  gap: 1em;
+}
+
+ .divBnt{
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+}
+.btn{
+  display: flex;
+  background-color:var( --bottom-color);
+  color: white;
+  width: 100%;
+  padding: 1em;
+
+
+}
+.bntClear{
+  width: 100%;
+  padding: 1em;
+  color: black;
+  background-color: var(--rose);
+}
+.example-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.example-container mat-form-field {
+  width: 100%;
+}
+
+.example-container > * {
+  width: 100%;
+}
 
 .text_presentation h3{
   display: flex;
@@ -57,7 +110,7 @@ height: 42rem
 }
 
 .forms{
-  margin-top: -26rem;
+  margin-top: -31em;
 }
 
 footer{
