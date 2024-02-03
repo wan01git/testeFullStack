@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatIconModule } from '@angular/material/icon';
@@ -22,6 +23,7 @@ import { Layout3Component } from './layout3/layout3.component';
     ReactiveFormsModule,
     MatInputModule,
     BrowserAnimationsModule,
+    HttpClientModule,
     MatSelectModule,
   ],
   providers: [],

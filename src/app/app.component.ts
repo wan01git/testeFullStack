@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { LeadServicesService } from './lead-services.service';
 
 @Component({
   selector: 'app-root',
@@ -9,7 +10,10 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 export class AppComponent implements OnInit {
   form!: FormGroup;
 
-  constructor(private _formBuilder: FormBuilder) {}
+  constructor(
+    private _formBuilder: FormBuilder,
+    private _service: LeadServicesService
+  ) {}
   ngOnInit(): void {
     this.form = this._formBuilder.group({
       name: ['', [Validators.required]],
@@ -22,7 +26,8 @@ export class AppComponent implements OnInit {
   }
 
   save() {
-    console.log(this.form.value);
+    this._service.store(this.form.value);
+    this.clear();
   }
 
   clear() {
